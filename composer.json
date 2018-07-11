@@ -1,0 +1,17 @@
+{
+    "name": "biggold/apidoc-for-laravel",
+    "description": "apidoc-for-laravel",
+    "authors": [
+        {
+            "name": "Jarvis",
+            "email": "41083104@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Biggold\\Apidoc\\": "src/"
+        }
+    }
+}
+git add .
