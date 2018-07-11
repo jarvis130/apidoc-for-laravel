@@ -12,7 +12,7 @@ class ApiCodeCommentsParser {
     private $controllerClass;
     private $controllerMethod;
 
-    private $markSet = ["param","name","description","response","paramTest","docIgnore"];
+    private $markSet = ["param","name","description","response","paramTest","docIgnore","return"];
 
     public function __construct($uses) {
 
