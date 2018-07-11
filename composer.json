@@ -1,13 +1,18 @@
 {
     "name": "biggold/apidoc-for-laravel",
     "description": "apidoc-for-laravel",
+    "type": "composer-plugin",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jarvis",
             "email": "41083104@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1.0",
+        "composer-plugin-api": "^1.0"
+    },
     "autoload": {
         "psr-4": {
             "Biggold\\Apidoc\\": "src/"
